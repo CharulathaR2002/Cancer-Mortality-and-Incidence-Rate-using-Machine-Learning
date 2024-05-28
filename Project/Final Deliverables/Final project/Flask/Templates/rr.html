@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>ONCOLOGY</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">ONCOLOGY</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                       <!-- <li class="nav-item"><a class="nav-link" href="/signin">Sign in</a></li>-->
+                        <!--<li class="nav-item"><a class="nav-link" href="/reg">Register</a></li>-->
+                        <li class="nav-item"><a class="nav-link" href="/input">Predict incidence</a></li>
+		    <li class="nav-item"><a class="nav-link" href="/input1">Predict mortality</a></li>
+		    <!--<li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">CANCER MORTALITY AND INCIDENCE RATE</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">An awareness of one's mortality can lead you to wake up and live an authentic, meaningful life.</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+         <!-- about-->
+        <section class="about-section" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">ABOUT</h2>
+			<h3 style="color:#ffdab9;">CANCER</h3>
+				<p style="color:white;">Cancer is a complex and diverse group of diseases characterized by the abnormal growth of cells. It can affect various parts of the body and has many different types and subtypes. Cancer occurs when normal cells undergo genetic mutations that allow them to multiply uncontrollably, forming a mass of cells called a tumor.There are two main categories of tumors: benign and malignant. Benign tumors are non-cancerous and usually do not spread to other parts of the body. Malignant tumors, on the other hand, are cancerous and can invade nearby tissues and spread to distant organs through a process called metastasis.Causes of cancer can vary and often involve a combination of genetic factors, lifestyle choices, and environmental exposures. Common risk factors include tobacco use, unhealthy diet, lack of physical activity, exposure to certain chemicals and substances, infections, and family history of cancer. Cancer symptoms depend on the type and stage of the disease but can include fatigue, unexplained weight loss, pain, changes in the skin, persistent cough, and abnormal bleeding. Early detection and timely treatment are crucial for improving outcomes and increasing survival rates. Treatment options for cancer include surgery, radiation therapy, chemotherapy, immunotherapy, targeted therapy, and hormone therapy. The choice of treatment depends on factors such as the type and stage of cancer, the patient's overall health, and individual preferences.Prevention plays a vital role in reducing the risk of cancer. Adopting a healthy lifestyle, avoiding tobacco and excessive alcohol consumption, maintaining a balanced diet, exercising regularly, protecting against infections (such as HPV and hepatitis), and getting regular screenings and vaccinations can help lower the risk. Cancer research and advancements in medical technology continue to improve our understanding of the disease and develop more effective treatments. It is important for individuals to stay informed, seek medical advice when needed, and support efforts aimed at cancer prevention, early detection, and treatment.</p> 
+                        	<h3 style="color:#ffdab9;">CANCER MORTALITY</h3>
+				<p style="color:white;">Cancer mortality refers to the number of deaths caused by cancer within a specific population over a given period. Predicting cancer mortality is challenging as it depends on various factors, including the type and stage of cancer, access to healthcare, treatment options, and individual patient characteristics.Population-level cancer mortality rates are often estimated through statistical analysis of large datasets, such as cancer registries and national health surveys. These data help identify trends, patterns, and risk factors associated with cancer-related deaths in specific populations. However, predicting individual cancer mortality is more difficult. Doctors and oncologists use various tools and models to assess prognosis and estimate the likelihood of survival for individual patients. These tools take into account factors such as cancer stage, tumor characteristics, treatment options, and patient health status.Prognostic factors such as tumor size, grade, lymph node involvement, and the presence of metastasis are considered in determining the expected outcome for a patient. Additionally, genetic testing can provide information on specific gene mutations that may influence cancer prognosis.It is important to note that predictions of cancer mortality are not absolute and can vary for each individual. Advances in cancer treatment and personalized medicine have significantly improved survival rates for many types of cancer. Treatment plans are tailored to each patient's specific needs, and new therapies, including targeted therapies and immunotherapies, are continually being developed.Ultimately, it is essential for individuals diagnosed with cancer to consult with their healthcare team to understand their prognosis, treatment options, and make informed decisions about their care. Regular monitoring, adherence to treatment plans, and adopting a healthy lifestyle can all play a role in improving outcomes and potentially reducing the risk of cancer mortality</p>
+		<h3 style="color:#ffdab9;">CANCER INCIDENCE</h3>
+				<p style="color:white;">Cancer incidence refers to the number of newly diagnosed cancer cases within a specific population over a given period. Predicting cancer incidence is challenging due to the multitude of factors involved, including genetic predisposition, lifestyle choices, environmental exposures, and chance.
+Epidemiological studies and cancer registries play a crucial role in estimating cancer incidence rates. These studies collect data on diagnosed cancer cases and provide information about the frequency and distribution of different types of cancer within a population. By analyzing this data, researchers can identify trends, risk factors, and changes in cancer incidence over time.To predict cancer incidence at the population level, statistical models and projections are often used. These models incorporate factors such as population demographics, known risk factors, and historical data to estimate future cancer incidence rates. However, these predictions are subject to uncertainties and assumptions and should be interpreted with caution.Predicting individual cancer incidence is challenging due to the complex interplay of various factors. Genetic testing can identify certain gene mutations associated with an increased risk of developing specific types of cancer. However, having these gene mutations does not guarantee the development of cancer.Prevention efforts, such as promoting healthy lifestyles, raising awareness about cancer risk factors, and implementing screening programs, play a crucial role in reducing cancer incidence. Screening tests, such as mammograms, Pap smears, and colonoscopies, can detect cancer at early stages or identify precancerous changes, allowing for timely intervention and potentially reducing cancer incidence.While it is not possible to accurately predict an individual's cancer incidence, understanding and addressing risk factors, following recommended screening guidelines, and adopting a healthy lifestyle can help reduce the risk of developing cancer. It is important for individuals to consult with healthcare professionals for personalized advice and guidance based on their specific circumstances.</P>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Address</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">Adhiparasakthi Engineering College</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="#!">cancer_rates_prediction@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">7397620039</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
