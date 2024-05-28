@@ -1,0 +1,7 @@
+,Name,Accuracy,f1_score,Recall,Precision
+0,XGBoost,0.32,0.32,0.32,0.32
+1,KNN,68.79,68.79,68.79,68.79
+2,Random Forest,98.73,98.73,98.73,98.73
+3,Support Vector Classifier,59.71,59.71,59.71,59.71
+4,Naive Bayes,67.52,67.52,67.52,67.52
+5,Decision Tree,98.89,98.89,98.89,98.89
